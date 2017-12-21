@@ -1,1 +1,3 @@
 coverage
+dist/
+metasync.browser.js

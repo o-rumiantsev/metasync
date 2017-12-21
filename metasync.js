@@ -12,7 +12,7 @@ const submodules = [
   'queue', // Concurrent queue
   'memoize', // Async memoization
   'do', // Simple chain/do
-].map(path => require('./' + path));
+].map(path => require('./lib/' + path));
 
 const flow = submodules[0].flow;
 module.exports = Object.assign(flow, ...submodules);

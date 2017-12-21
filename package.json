@@ -29,9 +29,9 @@
     "type": "git",
     "url": "https://github.com/metarhia/metasync"
   },
-  "main": "./lib/metasync.js",
+  "main": "./metasync.js",
   "browser": {
-    "./lib/metasync.js": "./dist/metasync.js"
+    "./metasync.js": "./metasync.browser.js"
   },
   "readmeFilename": "README.md",
   "scripts": {
